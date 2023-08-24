@@ -1,3 +1,25 @@
 <app-header></app-header>
 <p>home works!</p>
+
+
+<div class="db">
+    <pre>below button is an example of Data Binding</pre>
+    <button (click)="toggle()">{{showhide}}</button>
+    <div [hidden]="display">this is the content</div>
+</div>
+
+<div class="stringinterpolation">
+    string interpolation (property binding for image)
+   <pre>
+    product detail from an object
+    <img [src]="product.img" alt="" width="200px" height="200px">
+    name: {{ product.name }}
+    price:{{product.price}}
+    discount:{{product.price-product.discount*product.price/100}}
+    processor:{{product.processor}}
+</pre>
+</div>
+
+
+
 <app-footer></app-footer>

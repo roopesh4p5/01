@@ -1,3 +1,21 @@
 p{
     font-size: 28px;
 }
+.db{
+    border: 1px solid black;
+    width: 400px;
+    height: 120px;
+    margin: 30px;
+    text-align: center;
+}
+button{
+    margin: 10px;
+    width: 60px;
+}
+.stringinterpolation{
+    border: 1px solid black;
+    width: 400px;
+    height: 350px;
+    margin: 30px;
+    text-align: center;
+}

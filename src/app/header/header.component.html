@@ -17,11 +17,11 @@
           </li>
         </ul>
         <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" id="val" aria-label="Search">
+          <input class="form-control me-2" type="search" [placeholder]="search" id="val" aria-label="Search">
           <button class="btn btn-outline-success" type="button">Search</button>
         </form>
-        <ul>
-          <li><a routerLink="/login">Login</a></li>
+        <ul class="navbar-nav ">
+          <li><a class="nav-link" routerLink="/login">Login</a></li>
         </ul>
       </div>
     </div>

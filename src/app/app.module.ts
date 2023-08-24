@@ -14,6 +14,7 @@ import { FormsModule } from '@angular/forms';
 import { RegisterComponent } from './userauth/register/register.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from  '@angular/common/http'
+import { HttppostService } from './httppost.service';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,7 @@ import { HttpClientModule } from  '@angular/common/http'
     
     
   ],
-  providers: [],
+  providers: [HttppostService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

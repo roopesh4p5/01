@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
+  search="Iphone"
   hello=()=>{
     let val=document.getElementById('val')
     console.log(val)
